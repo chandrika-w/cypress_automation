@@ -1,0 +1,11 @@
+{
+  "chromeWebSecurity": false,
+  "experimentalSourceRewriting": true,
+  "defaultCommandTimeout": 8000,
+  "pageLoadTimeout": 90000,
+  "reporter":"mochawesome",
+  "env": {
+    "url": "https://rahulshettyacademy.com"
+  },
+  "projectId": "7wb6dn"
+}

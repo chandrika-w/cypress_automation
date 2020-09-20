@@ -1,0 +1,20 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ".//node_modules//.bin//cypress run",
+    "headTest":"npm run test -- --headed",
+    "chromeTest":"npm run test -- --browser chrome",
+    "recordDashBoardTest" : "npm run test -- --record --key 794dfd8b-18b4-4d1a-b8d6-fc05573aec9c --reporter mochawesome",
+    "GreenCart" : "npm run test -- --spec \"cypress//integration//GreenCart//*\""
+  },
+  "author": "chandrika",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.12.1",
+    "mocha": "^5.2.0",
+    "mochawesome": "^6.1.1"
+  }
+}
